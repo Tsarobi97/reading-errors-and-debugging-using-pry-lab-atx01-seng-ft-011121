@@ -1,13 +1,10 @@
 require 'pry'
 
 def get_user_input
-  binding.pry
   gets.chomp
-  
 end
 
 def prompt_user
-  binding.pry
   puts "What would you like to do?"
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
@@ -15,15 +12,13 @@ end
 
      
 def selection(num)
-  binding.pry
   if num == 1 
-    puts "YUM YUM MUNCH MUNCH MUNCH"
-    elsif num == 2
-    puts "HAM HAM HAM IN MY TUMMY"
+    "YUM YUM MUNCH MUNCH MUNCH"
+  elsif num == 2
+     "HAM HAM HAM IN MY TUMMY"
   end
     
 def runner
   prompt_user
   selection(get_user_input)
 end
-
