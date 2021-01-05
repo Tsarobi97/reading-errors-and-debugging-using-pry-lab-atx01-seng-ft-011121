@@ -8,4 +8,3 @@ def play_game(player1, player2)
 end
 start_game("Rocky", "Bullwinkle")
 play_game("Jay-Z", "Beyonce")
-end
